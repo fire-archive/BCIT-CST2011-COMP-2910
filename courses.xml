@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Courses>
+  <Course CourseID="COMP1536" CourseTitle="Introduction to Web Development" Credits="4" >
+	<InstructorFirstName>Medhat</InstructorFirstName>
+	<InstructorLastName>Elmasry</InstructorLastName>
+	<Description>This course is a web design and programming course with an emphasis on good planning, interface design, multimedia, client-side scripting with JavaScript, server-side scripting with Perl, and best practices. COMP 1535 will provide students with a solid understanding about how web applications are constructed and deployed. Students will be taught to use client-side RAD tools in order to enhance their productivity. Students will complete a number of assignments and exams as well as one larger project.</Description>
+  </Course>
+  <Course CourseID="ACIT1620" CourseTitle="Fundamental Web Technologies" Credits="4" >
+	<InstructorFirstName>Medhat</InstructorFirstName>
+	<InstructorLastName>Elmasry</InstructorLastName>
+	<Description>This course introduces the fundamental principles and techniques for designing and developing effective Web sites. Topics include: hand-coding pages with HTML; styling text and content with CSS; adding dynamic features with client-side scripting techniques; and, managing files and Web sites using FTP software. Students will also be introduced to information architecture and interface design, XML, as well as advanced mark-up techniques using DHTML. This course is the foundation for more advanced web courses.</Description>
+  </Course>
+  <Course CourseID="COMP1113" CourseTitle="Applied Mathematics" Credits="4" >
+	<InstructorFirstName>Mirela</InstructorFirstName>
+	<InstructorLastName>Gutica</InstructorLastName>
+	<Description>This course provides the foundation for subsequent technical and programming courses in the program. It covers topics in discrete mathematics and basic algebra. Topics include 1. Discrete Mathematics with Applications, Boolean Algebra, Number Systems, Data Representation 2. Basic Technical Mathematics: Basic Algebraic Operations, Functions, Equations and Logarithms, Linear Systems, Vectors and Matrices.</Description>
+  </Course>
+  <Course CourseID="ACIT1640" CourseTitle="Human Computer Interaction" Credits="4" >
+	<InstructorFirstName>Johanna</InstructorFirstName>
+	<InstructorLastName>van der Heyden</InstructorLastName>
+	<Description>A key component to the discipline of Information Technology is the understanding of and the advocacy for the user in the development of IT applications and systems. Students will develop a mind-set that recognizes the importance of users and organizational contexts. They will employ user-centered methodologies in the development, evaluation, and deployment of IT applications and systems. This course will develop a fundamental knowledge of HCI, including but not limited to such areas as user and task analysis, human factors, ergonomics, accessibility standards, and cognitive psychology.</Description>
+  </Course>
+  <Course CourseID="COMP1510" CourseTitle="Programming Methods" Credits="7" >
+	<InstructorFirstName>Bruce</InstructorFirstName>
+	<InstructorLastName>Link</InstructorLastName>
+	<Description>Introduces modern principles of programming methodologies in writing programs that are readable, well structured, and easy to maintain. A prelude to all future Full-time systems and programming courses.</Description>
+  </Course>
+  <Course CourseID="ACIT1515" CourseTitle="Object Oriented Programming" Credits="6" >
+	<InstructorFirstName>Jim</InstructorFirstName>
+	<InstructorLastName>Parry</InstructorLastName>
+	<Description>This course introduces the fundamental concepts of programming from an object-oriented perspective. It also introduces and reinforces good programming practices, such as unit testing, and good design practices, such as basic design patterns.</Description>
+  </Course>
+  <Course CourseID="COMP1111" CourseTitle="Essential Skills for Computing" Credits="4" >
+	<InstructorFirstName>Arron</InstructorFirstName>
+	<InstructorLastName>Ferguson</InstructorLastName>
+	<Description>This course equips the student with "survival skills" essential to their CST studies at BCIT. It introduces or reinforces fundamental critical thinking, problem solving and technology usage skills.</Description>
+  </Course>
+  <Course CourseID="ACIT1630" CourseTitle="Database Systems" Credits="4" >
+	<InstructorFirstName>Kelly</InstructorFirstName>
+	<InstructorLastName>Chiang</InstructorLastName>
+	<Description>This course covers relational database technology, including basic concepts, relational algebra, enhanced entity-relationship data modeling, functional dependencies and normalization, design methodology, SQL query language (DDL and DML), views, security and transaction management.</Description>
+  </Course>
+</Courses>
