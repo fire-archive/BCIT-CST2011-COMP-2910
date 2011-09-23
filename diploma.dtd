@@ -13,3 +13,8 @@
 <!ATTLIST Courses CourseID ID #REQUIRED>
 <!ATTLIST Courses TitleID CDATA #REQUIRED>
 <!ATTLIST Courses Credits CDATA #REQUIRED>
+<!ELEMENT Registrations (CourseRegistration+)>
+<!ELEMENT CourseRegistrations (#PCDATA)>
+<!ATTLIST CourseRegistrations RegistrationID ID #REQUIRED>
+<!ATTLIST CourseRegistrations StudentID IDREF #REQUIRED>
+<!ATTLIST CourseRegistrations CourseID IDRED #REQUIRED>
