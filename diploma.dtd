@@ -1,20 +1,19 @@
 <!ENTITY Students SYSTEM "students.xml">
 <!ENTITY Courses SYSTEM "courses.xml">
 <!ENTITY Registrations SYSTEM "registrations.xml">
-<!ELEMENT Diploma (Student, Courses, Registration)>
+<!ELEMENT Diploma (Students, Courses, Registrations)>
 <!ELEMENT Students (Student+)>
 <!ELEMENT Student (#PCDATA)>
-<!ATTLIST Students StudentID ID #REQUIRED>
-<!ATTLIST Students FirstName CDATA #REQUIRED>
-<!ATTLIST Students LastName CDATA #REQUIRED>
+<!ATTLIST Student StudentID ID #REQUIRED>
+<!ATTLIST Student FirstName CDATA #REQUIRED>
+<!ATTLIST Student LastName CDATA #REQUIRED>
 <!ELEMENT Courses (Course+)>
 <!ELEMENT Course (InstructorFirstName+, InstructorLastName+, Description+)>
-<!ELEMENT Course (#PCDATA)>
-<!ATTLIST Courses CourseID ID #REQUIRED>
-<!ATTLIST Courses TitleID CDATA #REQUIRED>
-<!ATTLIST Courses Credits CDATA #REQUIRED>
+<!ATTLIST Course CourseID ID #REQUIRED>
+<!ATTLIST Course TitleID CDATA #REQUIRED>
+<!ATTLIST Course Credits CDATA #REQUIRED>
 <!ELEMENT Registrations (CourseRegistration+)>
-<!ELEMENT CourseRegistrations (#PCDATA)>
-<!ATTLIST CourseRegistrations RegistrationID ID #REQUIRED>
-<!ATTLIST CourseRegistrations StudentID IDREF #REQUIRED>
-<!ATTLIST CourseRegistrations CourseID IDRED #REQUIRED>
+<!ELEMENT CourseRegistration (#PCDATA)>
+<!ATTLIST CourseRegistration RegistrationID ID #REQUIRED>
+<!ATTLIST CourseRegistration StudentID IDREF #REQUIRED>
+<!ATTLIST CourseRegistration CourseID IDREF #REQUIRED>
