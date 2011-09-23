@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE Diploma [
   <!ENTITY Students SYSTEM "students.xml">
+  <!ENTITY Courses SYSTEM "courses.xml">
+  <!ENTITY Registrations SYSTEM "registrations.xml">
 ]>
 <Diploma>
   &Students;
+  &Courses;
+  &Registrations;
 </Diploma>
