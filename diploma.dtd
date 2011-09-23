@@ -1,8 +1,8 @@
 <!ENTITY Students SYSTEM "students.xml">
+<!ENTITY Courses SYSTEM "courses.xml">
+<!ENTITY Registrations SYSTEM "registrations.xml">
 <!ELEMENT Students (Student+)>
 <!ELEMENT Student (#PCDATA)>
 <!ATTLIST Students StudentID ID #REQUIRED>
 <!ATTLIST Students FirstName CDATA #REQUIRED>
 <!ATTLIST Students LastName CDATA #REQUIRED>
-<!ENTITY Courses SYSTEM "courses.xml">
-<!ENTITY Registrations SYSTEM "registrations.xml">
