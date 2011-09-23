@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE Diploma SYSTEM "diploma.dtd">
 <Diploma>
-  &Students;
-  &Courses;
-  &Registrations;
+  %Students;
+  %Courses;
+  %Registrations;
 </Diploma>
