@@ -1,0 +1,3 @@
+<!ENTITY Students SYSTEM "students.xml">
+<!ENTITY Courses SYSTEM "courses.xml">
+<!ENTITY Registrations SYSTEM "registrations.xml">
