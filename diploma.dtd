@@ -10,6 +10,9 @@
 <!ELEMENT Courses (Course+)>
 <!ELEMENT Course (InstructorFirstName, InstructorLastName,
           Description)>
+<!ELEMENT InstructorFirstName (#PCDATA)>
+<!ELEMENT InstructorLastName (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
 <!ATTLIST Course CourseID ID #REQUIRED>
 <!ATTLIST Course CourseTitle CDATA #REQUIRED>
 <!ATTLIST Course Credits CDATA #REQUIRED>
