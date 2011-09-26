@@ -24,5 +24,7 @@
 <!ELEMENT Registrations (CourseRegistration+)>
 <!ELEMENT CourseRegistration (#PCDATA)>
 <!ATTLIST CourseRegistration RegistrationID ID #REQUIRED>
+<!ATTLIST CourseRegistration Withdrawn (true|false) #REQUIRED>
 <!ATTLIST CourseRegistration StudentID IDREF #REQUIRED>
 <!ATTLIST CourseRegistration CourseID IDREF #REQUIRED>
+
