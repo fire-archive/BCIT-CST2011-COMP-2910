@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Registrations>
-  <CourseRegistration RegistrationID="R1" StudentID="A00111111" CourseID="COMP1536" />
-  <CourseRegistration RegistrationID="R2" StudentID="A00111111" CourseID="COMP1113" />
-  <CourseRegistration RegistrationID="R3" StudentID="A00222222" CourseID="ACIT1620" />
-  <CourseRegistration RegistrationID="R4" StudentID="A00444444" CourseID="COMP1536" />
-  <CourseRegistration RegistrationID="R5" StudentID="A00222222" CourseID="ACIT1640" />
-  <CourseRegistration RegistrationID="R6" StudentID="A00333333" CourseID="ACIT1515" />
-  <CourseRegistration RegistrationID="R7" StudentID="A00444444" CourseID="COMP1510" />
-  <CourseRegistration RegistrationID="R8" StudentID="A00555555" CourseID="COMP1111" />
-  <CourseRegistration RegistrationID="R9" StudentID="A00555555" CourseID="COMP1510" />
-  <CourseRegistration RegistrationID="R10" StudentID="A00666666" CourseID="ACIT1515" />
-  <CourseRegistration RegistrationID="R11" StudentID="A00666666" CourseID="ACIT1630" />
-  <CourseRegistration RegistrationID="R12" StudentID="A00777777" CourseID="COMP1111" />
-  <CourseRegistration RegistrationID="R13" StudentID="A00888888" CourseID="ACIT1620" />
-  <CourseRegistration RegistrationID="R14" StudentID="A00999999" CourseID="COMP1536" />
-  <CourseRegistration RegistrationID="R15" StudentID="A00999999" CourseID="COMP1111" />
-  <CourseRegistration RegistrationID="R16" StudentID="A00123456" CourseID="ACIT1515" />
-  <CourseRegistration RegistrationID="R17" StudentID="A00555555" CourseID="COMP1536" />
-  <CourseRegistration RegistrationID="R18" StudentID="A00333333" CourseID="ACIT1630" />
-  <CourseRegistration RegistrationID="R19" StudentID="A00111111" CourseID="COMP1510" />
-  <CourseRegistration RegistrationID="R20" StudentID="A00666666" CourseID="ACIT1620" />
+  <CourseRegistration RegistrationID="R1" Withdrawn="false" StudentID="A00111111" CourseID="COMP1536" />
+  <CourseRegistration RegistrationID="R2" Withdrawn="true" StudentID="A00111111" CourseID="COMP1113" />
+  <CourseRegistration RegistrationID="R3" Withdrawn="false" StudentID="A00222222" CourseID="ACIT1620" />
+  <CourseRegistration RegistrationID="R4" Withdrawn="false" StudentID="A00444444" CourseID="COMP1536" />
+  <CourseRegistration RegistrationID="R5" Withdrawn="false" StudentID="A00222222" CourseID="ACIT1640" />
+  <CourseRegistration RegistrationID="R6" Withdrawn="false" StudentID="A00333333" CourseID="ACIT1515" />
+  <CourseRegistration RegistrationID="R7" Withdrawn="true" StudentID="A00444444" CourseID="COMP1510" />
+  <CourseRegistration RegistrationID="R8" Withdrawn="false" StudentID="A00555555" CourseID="COMP1111" />
+  <CourseRegistration RegistrationID="R9" Withdrawn="false" StudentID="A00555555" CourseID="COMP1510" />
+  <CourseRegistration RegistrationID="R10" Withdrawn="false" StudentID="A00666666" CourseID="ACIT1515" />
+  <CourseRegistration RegistrationID="R11" Withdrawn="false" StudentID="A00666666" CourseID="ACIT1630" />
+  <CourseRegistration RegistrationID="R12" Withdrawn="true" StudentID="A00777777" CourseID="COMP1111" />
+  <CourseRegistration RegistrationID="R13" Withdrawn="false" StudentID="A00888888" CourseID="ACIT1620" />
+  <CourseRegistration RegistrationID="R14" Withdrawn="false" StudentID="A00999999" CourseID="COMP1536" />
+  <CourseRegistration RegistrationID="R15" Withdrawn="false" StudentID="A00999999" CourseID="COMP1111" />
+  <CourseRegistration RegistrationID="R16" Withdrawn="false" StudentID="A00123456" CourseID="ACIT1515" />
+  <CourseRegistration RegistrationID="R17" Withdrawn="true" StudentID="A00555555" CourseID="COMP1536" />
+  <CourseRegistration RegistrationID="R18" Withdrawn="false" StudentID="A00333333" CourseID="ACIT1630" />
+  <CourseRegistration RegistrationID="R19" Withdrawn="false" StudentID="A00111111" CourseID="COMP1510" />
+  <CourseRegistration RegistrationID="R20" Withdrawn="false" StudentID="A00666666" CourseID="ACIT1620" />
 </Registrations>
